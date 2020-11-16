@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+a{
+    color: #D3D3D3;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:300;
+    letter-spacing: 2px;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+    /* font-family: 'Bebas', sans-serif;  */
+    font-weight:800;
+    letter-spacing: 1px;
+}
+p{
+    font-size: 20px;
+    margin: 10px;
+    color: #fff;
+}
+.navbar{
+    float: right;
+    margin-top: 24px ;
+}
+li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin-left: 50px;
+}
+a:hover{
+    color: #FFF;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.logo{
+    width: 60px;
+}
+
+.main-header{
+    background: black;
+    
+}
+
+.btn{
+    /* margin-left: 20%; */
+    /* margin-top: 70px; */
+    width: 400px;
+    border-radius: 25px;
+    border: 1px #fff solid;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    padding: 18px 24px;
+    font-size: 19px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:400;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:focus{
+    outline: none;
+}
+ .btn:hover{
+     background: #fff;;
+     color: black;
+ }
+ img{
+     width: 200px;
+ }
+ #img-1{
+    margin-top: 60px;
+    margin-left: 60px;
+ }
+ #img-2{
+     margin-top: 60px;
+     width: 200px;
+    }
+ .section-container{
+     display: flex;
+     flex-direction: column;
+     background-image: url(img/henos4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.section-container::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: black;
+    opacity: 0.6;
+}
+
+.section-container > * {
+    z-index: 10;
+}
+
+.section1{
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    height: 100vh;
+}
+
+.section1 h1{
+    margin-top: 70px;
+}
+.section1 p{
+    margin-bottom: 40px;
+}
+
+.main-footer{
+    height: 40vh;
+    background-image: url(img/pexels-the-lazy-artist-gallery-2247179.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    
+}
+
+
+.main-footer::after{
+    content: "";
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: black;
+    opacity: 0.9;
+}
+.main-footer li{
+    display: block;
+    margin-top: 30px;
+}
+.main-footer > * {
+    z-index: 10;
+}
+h2{
+    color: #fff;
+}
+.footer {
+    margin-left:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.phone-img{
+    width: 350px;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.section2{
+    height: 100vh;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.section2 p{
+    margin-bottom: 40px;
+}
+.section3{
+    height: 100vh;
+}
+
+.grid-section-2-top{
+    margin-left: 90px;
+}
+
+.title{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 900;
+}
